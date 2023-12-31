@@ -6,3 +6,8 @@ REST API with Python Flask
 ```
 docker run -dp 5000:5000 -w /app -v "${PWD}:/app" IMAGE_NAME sh -c "flask run --host=0.0.0.0"
 ```
+
+## Remember create a .env file and create the following variable
+```
+DATABASE_URL=
+```
